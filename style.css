@@ -1,0 +1,39 @@
+.card{
+    border-radius: 0%;
+}
+.card-title{
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+.field{
+    padding: 5px 0px 5px 0;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    border: 1px solid #212529;
+    border-radius: 6px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.field img{
+    max-width: 50px;
+}
+.field pre,.field h5{
+    margin-bottom: 0;
+}
+.drop_field{
+    background-color: rgb(241, 241, 241);
+}
+button {
+    margin: 10px;
+}
+.components-settings button{
+    margin-right: 5px;
+    margin-left: 5px;    
+}
+.components-settings .row{
+    justify-content: flex-start;
+}
